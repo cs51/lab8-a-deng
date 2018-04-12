@@ -189,9 +189,9 @@ Exercise 6: Finally, fire newswire events with the above three
 headlines, and observe what happens!
 ......................................................................*)
   
-WEvent.fire_event newsire h1; 
-WEvent.fire_event newsire h2; 
-WEvent.fire_event newsire h3;;
+WEvent.fire_event newswire h1; 
+WEvent.fire_event newswire h2; 
+WEvent.fire_event newswire h3;;
 
 (* Imagine now that you work at Facebook, and you're growing concerned
 with the proliferation of fake news. To combat the problem, you decide
@@ -247,9 +247,9 @@ the news. (They've just queued up a bunch of listeners on the publish
 event instead.)
 ......................................................................*)
 
-WEvent.fire_event newsire h4; 
-WEvent.fire_event newsire h5; 
-WEvent.fire_event newsire h6;;
+WEvent.fire_event newswire h4; 
+WEvent.fire_event newswire h5; 
+WEvent.fire_event newswire h6;;
 
 print_string "Moved to publication.\n" ;;
 
